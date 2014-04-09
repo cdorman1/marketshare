@@ -26,6 +26,16 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STATIC_ROOT = ''
+
+STATIC_URL = '/css/'
+
+STATICFILES_DIRS = (
+
+    "/marketshare/static/css" ,
+        
+)
+
 
 # Application definition
 
