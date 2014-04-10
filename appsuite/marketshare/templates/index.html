@@ -28,12 +28,21 @@
       </tr>
     </thead>
     <tbody>
-        <tr>{% for data in data %}
+        <tr>
+            {% for row in data %}
             <td>
-                {{ data }}
+                {{ row }}
             </td>
             {% endfor %}
         </tr>
+        <tr>
+            {% for field in row %}
+            <td>
+                {{ field }}
+            </td>
+            {% endfor %}
+        </tr>    
+
     </tbody>
     </table>
 </div><br/> 
