@@ -1,0 +1,9 @@
+usr/
+lib/
+bin/
+include/
+*.pyc
+*.*.swp
+*.swp
+*.pyc
+
