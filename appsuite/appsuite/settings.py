@@ -32,7 +32,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
 
-    "/marketshare/static/",
+    "marketshare/static",
         
 )
 
