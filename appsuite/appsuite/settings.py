@@ -28,11 +28,11 @@ ALLOWED_HOSTS = []
 
 STATIC_ROOT = ''
 
-STATIC_URL = '/css/'
+STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
 
-    "/marketshare/static/css" ,
+    "/marketshare/static/",
         
 )
 
