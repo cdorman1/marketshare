@@ -1,25 +1,30 @@
 <!DOCTYPE HTML PUBLIC "-//W3C/DTD HTML 4.01//EN">
 <html lang="en">
+<style type="text/css">
+  .important { color: #336600; }
+</style>
 <meta charset="utf-8" />
-<link rel="stylesheet" href="/static/css/style.css" >
+<link rel="stylesheet" href="/static/css/style.css" />
 <script data-require="jquery" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 <script src="/static/js/script.js"></script>
 <script src="/static/js/tablesorter.js"></script>
+<link rel="stylesheet" href="{{ STATIC_URL }}css/main.css" >
 <html xmlns="http://www.w3.org/1999/xhtml">
 
     <head>
       {% block head %}
-      <title>EM Market Share Page</title>
-      <link rel="stylesheet" href="{{ STATIC_URL }}css/main.css" >
+      <title>{% block title %}{% endblock %} - EM Market Share Page</title>
+      <strong><link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"></strong>
       {% endblock %}
   </head>
 
   <body>
     <header>
       <div class="container">
-          <h1 class="logo">EM Market Share</h1>
+          <h1 class="logo">EM Market Share Page</h1>
           <strong><nav>
             <ul class="menu">
+              <li><a href="{{ url_for('home') }}">Home</a></li>
             </ul>
           </nav></strong>
       </div>

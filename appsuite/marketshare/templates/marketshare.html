@@ -2,6 +2,13 @@
 {% block title %}marketshare{% endblock %}
 {% block content %}
 <div class="jumbo">
+<form name="loginform" action="index/form" method="post">{% csrf_token %}
+    {{form.as_p}}
+    <input type="submit"/>
+    {% for field, errors in form.errors.items %}
+        {{ errors }}
+    {% endfor %}
+</form>
 <ul>
 {% for items in data %}
   <li>{{ items }}</li>

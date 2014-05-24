@@ -4,6 +4,7 @@ import sys
 #import MySQLdb
 import locale
 import lxml.html
+from lxml.html import parse
 
 locale.setlocale(locale.LC_ALL, '')
 
@@ -40,37 +41,54 @@ def db_con(symbol):
 #    vol = int(row[0])
     vol = 1000000
     return vol
-        
+
 
 def web_scraper(symbol):
     url = ('http://finance.yahoo.com/q?s=' + symbol )
     doc = lxml.html.parse(url)
     #find the first table contaning any tr and a td with class yfnc_tabledata1
-    table = doc.xpath("//table[tr/td[@class='yfnc_tabledata1']]")[1]        
-    text = []   
+    table = doc.xpath("//table[tr/td[@class='yfnc_tabledata1']]")[1]
+    text = []
     for tr in table.xpath('./tr'):
         text.append(tr.text_content())
     split_txt = [i.split(':') for i in text]
-    em_vol =  db_con(symbol) 
+    em_vol =  db_con(symbol)
     ms = float(em_vol) / int(split_txt[2][1].replace(',', '')) * 100
-    sym = "{}".format(str.upper(symbol))
-    avg_vol = "{}".format(split_txt[3][1])
-    sym_vol = "{}".format(split_txt[2][1])
-    em_tvol = "{}".format(locale.format('%d', em_vol, 1))
-    market_share = "{0:.2f}%".format(ms)
+    sym = "Symbol: {}".format(str.upper(symbol))
+    avg_vol = "3 Month Avg Volume: {}".format(split_txt[3][1])
+    sym_vol = "{0} Volume: {1}".format(str.upper(symbol), split_txt[2][1])
+    em_tvol = "EM Volume: {}".format(locale.format('%d', em_vol, 1))
+    market_share = "EM MarketShare: {0:.2f}%".format(ms)
     return sym, avg_vol, sym_vol, em_tvol, market_share
 
 #def web_scraper():
 #    url = ('http://finance.yahoo.com/quotes/AAP,AAPL,ABB,ABX,ACE,ACGL,ACN,ACT')
 #    doc = lxml.html.parse(url)
-#    for tr in doc.xpath("//table[@class='yfi_portfolios_multiquote sortable yfi_table_row_order']//tr")[0]:
-#        print tr.text_content()
-  #  body_lst = []
-  #  for elem in table.xpath('./tbody'):
-  #      body_lst.append(elem.text_content().rstrip(' '))
-  #  
-  #  print body_lst
-    
+#    #rows = doc.xpath("//table[@class='yfi_portfolios_multiquote sortable yfi_table_row_order']/following-sibling::th/text()")
+#    rows = doc.xpath("//table[@class='yfi_portfolios_multiquote sortable yfi_table_row_order']")[0].findall("th")
+#    print rows
+#    sys.exit()
+
+#    
+#    data = []
+#    for row in rows:
+#        data.append([c.text for c in row.getchildren()])
+#
+#    
+#    
+#    
+#    
+#    
+    #h_lst = []
+    #for elem in table.xpath('./thead'):
+    #    h_lst.append(elem.text_content().split('\n'))
+    #
+    #b_lst = []
+    #for elem in table.xpath('./tbody'):
+    #    b_lst.append(elem.text_content().split('\n'))
+    #print  h_lst, b_lst
+
+   
 if __name__ == '__main__':
     web_scraper(symbol)
 

@@ -1,8 +1,6 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
-from marketshare.views import index
-
-
+from marketshare.views import *
 admin.autodiscover()
 
 urlpatterns = patterns('',
@@ -12,4 +10,6 @@ urlpatterns = patterns('',
 
     #url(r'^admin/', include(admin.site.urls)),
     url(r'^index/',index,name="index"),
+    url(r'^listpage/',listpage,name="listpage"),
+    url(r'^dashboard/',dashboard,name="dashboard") 
 )

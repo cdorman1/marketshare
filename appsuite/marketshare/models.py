@@ -1,3 +1,8 @@
 from django.db import models
 
 # Create your models here.
+class SymbolList(models.Model):
+    listname = models.CharField(max_length=100, primary_key=True)
+    symbol = models.CharField(max_length=500)
+
+

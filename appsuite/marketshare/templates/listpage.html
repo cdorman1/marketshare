@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block title %}EM Market Share Index{% endblock %}
+{% block head %}
+<style type="text/css">
+    .important { color: #336600; }
+</style>
+{% block content %}
+  <div>
+    <table border=1 id="myTable" class="tablesorter">
+        <thead>
+    {% for hdr in data.h_lst %}
+    <tr>
+        {{ hdr }}
+    </tr>
+    {% endfor %}
+    </thead>
+    <tbody>
+    {% for row in data %}
+        <tr>
+        {% for field in row %}  
+            <td>
+                {{ field }}
+            </td>
+        {% endfor %}
+        </tr>
+     {% endfor %}
+    </tbody>
+    </table>
+</div><br/> 
+{% endblock %}

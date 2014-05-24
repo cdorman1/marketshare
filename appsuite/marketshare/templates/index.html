@@ -6,46 +6,15 @@
 </style>
 {% endblock %}
 {% block content %}
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Market Share</title>
-    <link rel="stylesheet" href="/static/css/style.css" />
-    <script data-require="jquery" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-    <script src="/static/js/script.js"></script>
-    <script src="/static/js/tablesorter.js"></script>
-  </head>
-  <body>
   <div>
     <table border=1 id="myTable" class="tablesorter">
-    <thead>
-      <tr>
-      <th>Symbol</th>
-      <th>Avg. Volume(3m)</th>
-      <th>Symbol Volume</th>
-      <th>EM Total Volume</th>
-      <th>EM Market Share</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-            {% for row in data %}
-            <td>
-                {{ row }}
-            </td>
+        <thead>
+            <form name="loginform" action="/marketshare/index/" method="post">{% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit"/>
+            </form>
+            {% for field, errors in form.errors.items %}
+                {{ errors }}
             {% endfor %}
-        </tr>
-        <tr>
-            {% for field in row %}
-            <td>
-                {{ field }}
-            </td>
-            {% endfor %}
-        </tr>    
-
-    </tbody>
-    </table>
-</div><br/> 
-  </body>
-</html>
+</div><br/>
 {% endblock %}
