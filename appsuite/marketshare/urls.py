@@ -11,5 +11,6 @@ urlpatterns = patterns('',
     #url(r'^admin/', include(admin.site.urls)),
     url(r'^index/',index,name="index"),
     url(r'^listpage/',listpage,name="listpage"),
-    url(r'^dashboard/',dashboard,name="dashboard") 
+    url(r'^dashboard/',dashboard,name="dashboard"),
+    url(r'^logout/',dologout,name="logout")
 )
