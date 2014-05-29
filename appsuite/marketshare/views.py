@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from marketshare.ms import web_scraper
-from marketshare.models import MsUsers
+from marketshare.models import GetSymbol
 from django.http import HttpResponse
 from django.template import loader,RequestContext
 from django import forms
