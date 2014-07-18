@@ -12,7 +12,7 @@ def web_scraper(symbol):
     data = {'symbol': [str(item['symbol']) for item in pyql.lookup(symbol)],
             'Avg_Volume(3m)': [str(item['AverageDailyVolume']) for  item in pyql.lookup(symbol)],
             'Volume': sym_vol,
-            'EM_Volume': ['1000000'] *3,
+            'EM_Volume': ['1000000'] * len(symbol),
             'Market_Share': map(float, ms)
             }
     headings = ['symbol', 'Avg_Volume(3m)', 'Volume', 'EM_Volume', 'Market_Share']

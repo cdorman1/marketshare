@@ -67,7 +67,7 @@ def index(request):
 
 
 def listpage(request):
-    symbol = ['aapl', 'tsla', 'spy']
+    symbol = ['aapl', 'tsla', 'spy', 'qqq', 'dgly', 'atml', 'ibm']
  #   print symbol
     data = web_scraper(symbol)
     print data
