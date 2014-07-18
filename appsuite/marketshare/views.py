@@ -1,24 +1,35 @@
 # -*- coding: utf-8 -*-
 from marketshare.ms import web_scraper
-from marketshare.models import GetSymbol
+from marketshare.models import MarketShare, MsForm
 from django.http import HttpResponse
-from django.template import loader,RequestContext
-from django import forms
+from django.template import loader, RequestContext, Context, Template
 from django.shortcuts import redirect
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 from django.core.exceptions import ObjectDoesNotExist
+from django.contrib.auth.decorators import login_required
+from marketshare.marketshare_forms import LoginForm
 
 
-class LoginForm(forms.Form):
-    username=forms.EmailField()
-    password=forms.CharField(widget=forms.PasswordInput())
-
-
+@login_required(login_url="marketshare/index/")
 def dashboard(request):
-    template=loader.get_template("dashboard.html")
-    rc=RequestContext(request, {})
-    return HttpResponse(template.render(rc)) 
+    if request.method=="POST":
+        d=request.POST.copy()
+        d.update({'owner':request.user.id})
+        form=MsForm(d)
+        if not form.is_valid():
+            template=loader.get_template("dashboard.html")
+            rc=RequestContext(request,{'form': form})
+            return HttpResponse(template.render(rc))
+        #save note to the database
+        submission=form.save(commit=False)
+        submission.owner=request.user
+        submission.save()
+        return redirect("dashboard")
+    else:
+        template=loader.get_template("dashboard.html")
+        rc=RequestContext(request, {'form': MsForm()})
+        return HttpResponse(template.render(rc)) 
 
 
 def index(request):
@@ -32,16 +43,16 @@ def index(request):
             if not username or not pwd:
                 return HttpResponse("username and password not present")
             try:
-                user = User.objects.get(username=username)
+                user = User.objects.get(username__exact=username)
             except ObjectDoesNotExist, ex:
                 print "Creating new user..."
                 user = User.objects.create_user(username, username, pwd)
             if user:
                 print "Authenticating..."
                 user = authenticate(username=username, password=pwd)
-                print "Logging in user"
-                login(request, user)
-                return redirect("dashboard")
+            print "Logging in user"
+            login(request, user)
+            return redirect("listpage")
         else:
             print "FORM is not valid"
             template=loader.get_template("index.html")
@@ -56,11 +67,11 @@ def index(request):
 
 
 def listpage(request):
-    symbol = 'spy'
-    print symbol
+    symbol = ['aapl', 'tsla', 'spy']
+ #   print symbol
     data = web_scraper(symbol)
     print data
-    template=loader.get_template("marketshare.html")
+    template=loader.get_template("listpage.html")
     rc=RequestContext(request, {"data": data})
     return HttpResponse(template.render(rc))
 

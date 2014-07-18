@@ -1,3 +1,24 @@
 <a href="/marketshare/logout">Log Out</a>
 <h2>Dashboard {{ user }}</h2>
 
+<table>
+  <tr>
+    <td>
+      <form name="MsForm" action="/marketshare/dashboard/" method="post">  {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="NewSearch"/>
+      </form>
+    </td>
+
+
+
+
+
+
+
+
+
+
+
+  </tr>
+</table>
