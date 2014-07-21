@@ -1,681 +1,681 @@
-('AA', Decimal('2000'))
-('AAP', Decimal('5222'))
-('AAPL', Decimal('1078134'))
-('ABBV', Decimal('66702'))
-('ABT', Decimal('15410'))
-('ACHN', Decimal('1458'))
-('ACN', Decimal('5356'))
-('ACT', Decimal('52492'))
-('ADM', Decimal('26664'))
-('ADS', Decimal('11300'))
-('AEGR', Decimal('4490'))
-('AET', Decimal('1364'))
-('AFL', Decimal('6878'))
-('AFSI', Decimal('1200'))
-('AGCO', Decimal('1966'))
-('AGN', Decimal('46540'))
-('AGU', Decimal('3042'))
-('AIG', Decimal('36042'))
-('AIRM', Decimal('3900'))
-('AIZ', Decimal('2066'))
-('AKS', Decimal('2800'))
-('ALGN', Decimal('1800'))
-('ALL', Decimal('17050'))
-('ALV', Decimal('16320'))
-('ALXN', Decimal('17438'))
-('AMCX', Decimal('4154'))
-('AMD', Decimal('17940'))
-('AMED', Decimal('976'))
-('AMG', Decimal('18628'))
-('AMP', Decimal('4504'))
-('AMTD', Decimal('25914'))
-('AMX', Decimal('2000'))
-('AMZN', Decimal('112950'))
-('ANAC', Decimal('27856'))
-('ANF', Decimal('1526'))
-('ANR', Decimal('2000'))
-('ANSS', Decimal('800'))
-('APC', Decimal('5400'))
-('APD', Decimal('2686'))
-('APH', Decimal('4764'))
-('APO', Decimal('1500'))
-('ARE', Decimal('400'))
-('ARG', Decimal('680'))
-('ASH', Decimal('600'))
-('ASML', Decimal('22366'))
-('ATHN', Decimal('14860'))
-('ATW', Decimal('1804'))
-('AVB', Decimal('17358'))
-('AVGO', Decimal('9868'))
-('AVY', Decimal('5460'))
-('AWI', Decimal('3000'))
-('AXE', Decimal('1000'))
-('AYI', Decimal('12406'))
-('AZO', Decimal('17730'))
-('BAC', Decimal('626798'))
-('BAK', Decimal('2'))
-('BAP', Decimal('992'))
-('BBBY', Decimal('9080'))
-('BBD', Decimal('2000'))
-('BBG', Decimal('1240'))
-('BBL', Decimal('1600'))
-('BBT', Decimal('89154'))
-('BBY', Decimal('9934'))
-('BCR', Decimal('2258'))
-('BCS', Decimal('2800'))
-('BDBD', Decimal('2800'))
-('BDX', Decimal('1792'))
-('BG', Decimal('1076'))
-('BHP', Decimal('856'))
-('BIDU', Decimal('217632'))
-('BIIB', Decimal('72164'))
-('BIOF', Decimal('4222'))
-('BITA', Decimal('4912'))
-('BLK', Decimal('35876'))
-('BLMN', Decimal('938'))
-('BMRN', Decimal('22618'))
-('BMY', Decimal('59452'))
-('BOH', Decimal('804'))
-('BP', Decimal('12632'))
-('BPL', Decimal('5556'))
-('BRCM', Decimal('7330'))
-('BSFT', Decimal('200'))
-('BTU', Decimal('10000'))
-('BUD', Decimal('7422'))
-('BWA', Decimal('3934'))
-('BWLD', Decimal('12904'))
-('BX', Decimal('2000'))
-('BXP', Decimal('986'))
-('C', Decimal('62616'))
-('CAB', Decimal('800'))
-('CACI', Decimal('2210'))
-('CAM', Decimal('400'))
-('CASY', Decimal('2318'))
-('CAVM', Decimal('1800'))
-('CB', Decimal('8138'))
-('CBAK', Decimal('3800'))
-('CBD', Decimal('2294'))
-('CBI', Decimal('1626'))
-('CBS', Decimal('440'))
-('CBST', Decimal('4742'))
-('CCL', Decimal('3734'))
-('CELG', Decimal('26824'))
-('CERN', Decimal('1000'))
-('CF', Decimal('31676'))
-('CFX', Decimal('3228'))
-('CHD', Decimal('13400'))
-('CHE', Decimal('1116'))
-('CHK', Decimal('40918'))
-('CHKP', Decimal('2400'))
-('CHL', Decimal('800'))
-('CHRW', Decimal('1200'))
-('CIB', Decimal('48'))
-('CIG', Decimal('4'))
-('CINF', Decimal('2812'))
-('CL', Decimal('7602'))
-('CLB', Decimal('9594'))
-('CLF', Decimal('4782'))
-('CLH', Decimal('1016'))
-('CLR', Decimal('34310'))
-('CLVS', Decimal('1400'))
-('CLX', Decimal('2798'))
-('CMCSA', Decimal('77062'))
-('CMCSK', Decimal('24002'))
-('CMG', Decimal('119614'))
-('CMI', Decimal('29144'))
-('CNC', Decimal('7632'))
-('CNI', Decimal('4408'))
-('CNQR', Decimal('1466'))
-('COG', Decimal('4582'))
-('COH', Decimal('11814'))
-('COL', Decimal('5664'))
-('CONN', Decimal('12062'))
-('COO', Decimal('2484'))
-('COST', Decimal('220'))
-('COV', Decimal('600'))
-('CP', Decimal('1348'))
-('CPA', Decimal('1304'))
-('CPHD', Decimal('902'))
-('CPRT', Decimal('5732'))
-('CPT', Decimal('2248'))
-('CREE', Decimal('1000'))
-('CRI', Decimal('1190'))
-('CROX', Decimal('5376'))
-('CRR', Decimal('4068'))
-('CSCO', Decimal('72224'))
-('CSX', Decimal('15004'))
-('CTRP', Decimal('1168'))
-('CTXS', Decimal('400'))
-('CVLT', Decimal('9252'))
-('CVRR', Decimal('1200'))
-('CVX', Decimal('200'))
-('CXO', Decimal('6400'))
-('CXW', Decimal('1050'))
-('CYN', Decimal('872'))
-('CYT', Decimal('3492'))
-('DAL', Decimal('28632'))
-('DATA', Decimal('12848'))
-('DDD', Decimal('25098'))
-('DDS', Decimal('1988'))
-('DECK', Decimal('1750'))
-('DEO', Decimal('21990'))
-('DHI', Decimal('17088'))
-('DHR', Decimal('2000'))
-('DIA', Decimal('199152'))
-('DISCA', Decimal('5470'))
-('DISCK', Decimal('3254'))
-('DKS', Decimal('806'))
-('DLR', Decimal('4384'))
-('DNB', Decimal('1068'))
-('DO', Decimal('1600'))
-('DOV', Decimal('20854'))
-('DOW', Decimal('14954'))
-('DPS', Decimal('600'))
-('DRQ', Decimal('1486'))
-('DSW', Decimal('1426'))
-('DTE', Decimal('242'))
-('DVA', Decimal('3108'))
-('DWA', Decimal('1144'))
-('E', Decimal('2'))
-('EAT', Decimal('800'))
-('EBAY', Decimal('47114'))
-('EC', Decimal('200'))
-('ECA', Decimal('1400'))
-('ECL', Decimal('928'))
-('EEM', Decimal('1915420'))
-('EFA', Decimal('95672'))
-('EGAS', Decimal('3488'))
-('EGN', Decimal('400'))
-('ELP', Decimal('2'))
-('ELS', Decimal('300'))
-('EMB', Decimal('1000'))
-('EMC', Decimal('150406'))
-('EMN', Decimal('600'))
-('ENPH', Decimal('13586'))
-('ENR', Decimal('200'))
-('ENT', Decimal('200'))
-('EOG', Decimal('37186'))
-('EPD', Decimal('424'))
-('EPR', Decimal('3182'))
-('EQIX', Decimal('8522'))
-('EQM', Decimal('800'))
-('EQT', Decimal('2722'))
-('ERJ', Decimal('3308'))
-('ESS', Decimal('10058'))
-('ESV', Decimal('2586'))
-('ETE', Decimal('1400'))
-('ETFC', Decimal('27762'))
-('ETP', Decimal('2286'))
-('EW', Decimal('1200'))
-('EWJ', Decimal('61394'))
-('EWZ', Decimal('233192'))
-('EXC', Decimal('40600'))
-('EXP', Decimal('644'))
-('EXTR', Decimal('9460'))
-('EXXI', Decimal('400'))
-('EZPW', Decimal('8220'))
-('F', Decimal('62010'))
-('FANG', Decimal('200'))
-('FB', Decimal('686266'))
-('FBHS', Decimal('1658'))
-('FBRC', Decimal('100'))
-('FCX', Decimal('4300'))
-('FDO', Decimal('4950'))
-('FDX', Decimal('9144'))
-('FE', Decimal('11332'))
-('FEYE', Decimal('51488'))
-('FFIV', Decimal('28284'))
-('FIS', Decimal('400'))
-('FISV', Decimal('14204'))
-('FLR', Decimal('600'))
-('FLT', Decimal('7604'))
-('FMX', Decimal('8168'))
-('FOLD', Decimal('1400'))
-('FOSL', Decimal('4454'))
-('FOX', Decimal('27972'))
-('FOXA', Decimal('104236'))
-('FRT', Decimal('246'))
-('FSLR', Decimal('4924'))
-('FTI', Decimal('4400'))
-('FXI', Decimal('115034'))
-('GD', Decimal('1126'))
-('GDX', Decimal('51216'))
-('GE', Decimal('386296'))
-('GEO', Decimal('430'))
-('GG', Decimal('5034'))
-('GHL', Decimal('232'))
-('GIS', Decimal('30956'))
-('GLD', Decimal('134492'))
-('GLOB', Decimal('6918'))
-('GLUU', Decimal('15736'))
-('GM', Decimal('5972'))
-('GMCR', Decimal('51364'))
-('GMT', Decimal('600'))
-('GOGO', Decimal('2414'))
-('GOLD', Decimal('5066'))
-('GOOG', Decimal('113998'))
-('GOOGL', Decimal('124326'))
-('GPC', Decimal('39356'))
-('GPOR', Decimal('2672'))
-('GPRO', Decimal('517734'))
-('GRA', Decimal('1944'))
-('GRPN', Decimal('31702'))
-('GS', Decimal('59076'))
-('GSK', Decimal('33644'))
-('GTLS', Decimal('4080'))
-('GWR', Decimal('2620'))
-('GWRE', Decimal('1358'))
-('GWW', Decimal('25434'))
-('HAIN', Decimal('772'))
-('HAL', Decimal('218812'))
-('HAR', Decimal('3742'))
-('HAS', Decimal('55290'))
-('HBI', Decimal('2138'))
-('HCP', Decimal('5646'))
-('HD', Decimal('56946'))
-('HDS', Decimal('6858'))
-('HFC', Decimal('864'))
-('HIG', Decimal('614'))
-('HLF', Decimal('940128'))
-('HMSY', Decimal('3428'))
-('HOG', Decimal('4358'))
-('HOT', Decimal('1938'))
-('HP', Decimal('3100'))
-('HPQ', Decimal('34804'))
-('HRB', Decimal('3598'))
-('HRS', Decimal('810'))
-('HSBC', Decimal('4290'))
-('HSH', Decimal('1800'))
-('HSIC', Decimal('11922'))
-('HTZ', Decimal('45402'))
-('HUM', Decimal('2700'))
-('IAU', Decimal('1600'))
-('IBB', Decimal('50824'))
-('IBM', Decimal('8306'))
-('ICE', Decimal('30618'))
-('ICLD', Decimal('6000'))
-('ICON', Decimal('600'))
-('ICPT', Decimal('8010'))
-('IDCC', Decimal('200'))
-('IDIX', Decimal('2156'))
-('IDXX', Decimal('1004'))
-('IFF', Decimal('616'))
-('ILMN', Decimal('2640'))
-('INCY', Decimal('10186'))
-('INGR', Decimal('388'))
-('INTC', Decimal('191162'))
-('IOC', Decimal('9722'))
-('IPGP', Decimal('600'))
-('IRBT', Decimal('25530'))
-('IRM', Decimal('4798'))
-('ISRG', Decimal('39882'))
-('IT', Decimal('620'))
-('ITRI', Decimal('20796'))
-('IVZ', Decimal('5228'))
-('IWM', Decimal('255368'))
-('JAZZ', Decimal('6030'))
-('JBHT', Decimal('1200'))
-('JNPR', Decimal('2000'))
-('JOY', Decimal('1180'))
-('JPM', Decimal('73840'))
-('JWN', Decimal('610'))
-('KB', Decimal('2'))
-('KBR', Decimal('5408'))
-('KEX', Decimal('1624'))
-('KGC', Decimal('2000'))
-('KIM', Decimal('2000'))
-('KING', Decimal('3000'))
-('KMB', Decimal('2774'))
-('KMI', Decimal('7790'))
-('KMP', Decimal('2414'))
-('KMR', Decimal('950'))
-('KNDI', Decimal('201730'))
-('KO', Decimal('33266'))
-('KORS', Decimal('5218'))
-('KR', Decimal('22138'))
-('KRC', Decimal('8448'))
-('KT', Decimal('2'))
-('KYN', Decimal('1000'))
-('L', Decimal('1400'))
-('LAD', Decimal('3132'))
-('LBTYA', Decimal('30892'))
-('LBTYK', Decimal('42970'))
-('LEA', Decimal('12820'))
-('LECO', Decimal('1000'))
-('LH', Decimal('3988'))
-('LHO', Decimal('4'))
-('LII', Decimal('41258'))
-('LL', Decimal('5882'))
-('LLY', Decimal('3816'))
-('LMCA', Decimal('20954'))
-('LMT', Decimal('5770'))
-('LNKD', Decimal('32908'))
-('LOW', Decimal('3946'))
-('LPNT', Decimal('538'))
-('LQDT', Decimal('400'))
-('LRCX', Decimal('2378'))
-('LSTR', Decimal('1442'))
-('LTM', Decimal('200'))
-('LULU', Decimal('6968'))
-('LUV', Decimal('24060'))
-('LYG', Decimal('200'))
-('MA', Decimal('44178'))
-('MAC', Decimal('4982'))
-('MAN', Decimal('31454'))
-('MBT', Decimal('200'))
-('MCK', Decimal('19176'))
-('MCO', Decimal('2076'))
-('MCRS', Decimal('1600'))
-('MD', Decimal('14'))
-('MDCO', Decimal('800'))
-('MDVN', Decimal('2148'))
-('MDY', Decimal('28754'))
-('MELI', Decimal('602'))
-('MGM', Decimal('3090'))
-('MHK', Decimal('12960'))
-('MJN', Decimal('4368'))
-('MKC', Decimal('600'))
-('MLM', Decimal('18162'))
-('MMC', Decimal('23492'))
-('MNKD', Decimal('3134'))
-('MNST', Decimal('3732'))
-('MO', Decimal('38968'))
-('MOH', Decimal('1046'))
-('MPC', Decimal('6236'))
-('MRK', Decimal('13662'))
-('MRO', Decimal('18220'))
-('MS', Decimal('17858'))
-('MSFT', Decimal('196166'))
-('MSG', Decimal('1852'))
-('MTB', Decimal('2624'))
-('MTD', Decimal('4274'))
-('MTG', Decimal('2000'))
-('MTH', Decimal('400'))
-('MU', Decimal('10594'))
-('MUR', Decimal('4800'))
-('MWE', Decimal('2194'))
-('NAV', Decimal('1106'))
-('NBL', Decimal('16052'))
-('NBR', Decimal('36712'))
-('NCLH', Decimal('338'))
-('NE', Decimal('30862'))
-('NEM', Decimal('3278'))
-('NEWL', Decimal('0'))
-('NFLX', Decimal('488892'))
-('NI', Decimal('3204'))
-('NLY', Decimal('1600'))
-('NOC', Decimal('2440'))
-('NOK', Decimal('2200'))
-('NQ', Decimal('3686'))
-('NRG', Decimal('11008'))
-('NSC', Decimal('6382'))
-('NSR', Decimal('1608'))
-('NTES', Decimal('1550'))
-('NTI', Decimal('1000'))
-('NUS', Decimal('59094'))
-('NVO', Decimal('4'))
-('NVS', Decimal('6'))
-('NXST', Decimal('2270'))
-('O', Decimal('424'))
-('OAS', Decimal('3202'))
-('OC', Decimal('5228'))
-('OCR', Decimal('200'))
-('ODFL', Decimal('2552'))
-('OGE', Decimal('946'))
-('OII', Decimal('12568'))
-('OIS', Decimal('400'))
-('OKS', Decimal('8058'))
-('OLED', Decimal('800'))
-('OPEN', Decimal('1200'))
-('ORCL', Decimal('86408'))
-('ORLY', Decimal('38062'))
-('OSIS', Decimal('918'))
-('OSK', Decimal('4946'))
-('OSTK', Decimal('1398'))
-('OUTR', Decimal('3606'))
-('PAA', Decimal('1000'))
-('PANW', Decimal('2230'))
-('PBR', Decimal('47116'))
-('PBY', Decimal('2'))
-('PCAR', Decimal('1262'))
-('PCL', Decimal('690'))
-('PCLN', Decimal('35782'))
-('PCP', Decimal('14744'))
-('PCYC', Decimal('16324'))
-('PDCE', Decimal('6230'))
-('PEG', Decimal('18128'))
-('PEP', Decimal('200'))
-('PETM', Decimal('19080'))
-('PFE', Decimal('67226'))
-('PG', Decimal('49986'))
-('PH', Decimal('2254'))
-('PII', Decimal('15470'))
-('PKG', Decimal('1836'))
-('PLCE', Decimal('3978'))
-('PLD', Decimal('9092'))
-('PLL', Decimal('1262'))
-('PLUG', Decimal('1400'))
-('PNR', Decimal('3642'))
-('PNRA', Decimal('15170'))
-('PNW', Decimal('5002'))
-('POT', Decimal('4722'))
-('PPG', Decimal('41762'))
-('PPL', Decimal('24824'))
-('PPO', Decimal('1606'))
-('PRE', Decimal('1000'))
-('PRGO', Decimal('400'))
-('PRU', Decimal('10658'))
-('PRXL', Decimal('400'))
-('PSA', Decimal('11312'))
-('PSX', Decimal('4546'))
-('PUK', Decimal('600'))
-('PVH', Decimal('2006'))
-('PWRD', Decimal('1822'))
-('PX', Decimal('3370'))
-('PXD', Decimal('27464'))
-('QCOM', Decimal('13988'))
-('QCOR', Decimal('52800'))
-('QIHU', Decimal('9266'))
-('QQQ', Decimal('1809846'))
-('RAD', Decimal('58354'))
-('RAI', Decimal('1400'))
-('RCII', Decimal('1200'))
-('RCL', Decimal('6'))
-('RDC', Decimal('4400'))
-('RE', Decimal('7778'))
-('REGN', Decimal('42054'))
-('REXX', Decimal('2416'))
-('RGA', Decimal('2684'))
-('RGLD', Decimal('3616'))
-('RH', Decimal('1496'))
-('RHI', Decimal('1400'))
-('RIO', Decimal('2000'))
-('RKT', Decimal('30180'))
-('RL', Decimal('13916'))
-('RLGY', Decimal('200'))
-('RMD', Decimal('1424'))
-('RMTI', Decimal('200'))
-('ROC', Decimal('2270'))
-('ROK', Decimal('1604'))
-('ROSE', Decimal('4462'))
-('ROST', Decimal('600'))
-('RPTP', Decimal('600'))
-('RRC', Decimal('13768'))
-('RS', Decimal('4100'))
-('RUBI', Decimal('18358'))
-('RVLT', Decimal('1200'))
-('RYL', Decimal('1780'))
-('RYN', Decimal('626'))
-('SAGE', Decimal('15196'))
-('SAP', Decimal('2556'))
-('SAVE', Decimal('3920'))
-('SBAC', Decimal('3422'))
-('SBNY', Decimal('14196'))
-('SCHW', Decimal('6000'))
-('SCTY', Decimal('138902'))
-('SDS', Decimal('95006'))
-('SE', Decimal('11194'))
-('SEAS', Decimal('2374'))
-('SF', Decimal('1488'))
-('SFLY', Decimal('626'))
-('SFUN', Decimal('4800'))
-('SGMS', Decimal('370'))
-('SHLD', Decimal('938'))
-('SHPG', Decimal('215522'))
-('SHW', Decimal('21078'))
-('SIAL', Decimal('600'))
-('SINA', Decimal('9188'))
-('SIRI', Decimal('35600'))
-('SIRO', Decimal('1326'))
-('SIVB', Decimal('1000'))
-('SIX', Decimal('68682'))
-('SJM', Decimal('400'))
-('SLG', Decimal('2178'))
-('SLV', Decimal('2400'))
-('SLW', Decimal('4846'))
-('SLXP', Decimal('1614'))
-('SM', Decimal('25308'))
-('SMTC', Decimal('200'))
-('SNA', Decimal('2044'))
-('SNI', Decimal('2458'))
-('SNY', Decimal('4350'))
-('SO', Decimal('3882'))
-('SODA', Decimal('9508'))
-('SPLK', Decimal('7766'))
-('SPN', Decimal('3040'))
-('SPW', Decimal('1712'))
-('SPXU', Decimal('63798'))
-('SPY', Decimal('3441456'))
-('SRCL', Decimal('3866'))
-('SRPT', Decimal('4400'))
-('SSL', Decimal('2'))
-('SSW', Decimal('3714'))
-('SSYS', Decimal('9832'))
-('STI', Decimal('53296'))
-('STLD', Decimal('21906'))
-('SU', Decimal('19076'))
-('SUMR', Decimal('10476'))
-('SWI', Decimal('200'))
-('SWK', Decimal('2766'))
-('SYT', Decimal('4'))
-('T', Decimal('2000'))
-('TBT', Decimal('9934'))
-('TCBI', Decimal('400'))
-('TCO', Decimal('400'))
-('TD', Decimal('1200'))
-('TDC', Decimal('1000'))
-('TDG', Decimal('6972'))
-('TDW', Decimal('638'))
-('TEL', Decimal('3894'))
-('TERP', Decimal('25508'))
-('TFM', Decimal('1000'))
-('TGI', Decimal('800'))
-('TGT', Decimal('37056'))
-('THRX', Decimal('2328'))
-('TIF', Decimal('4648'))
-('TJX', Decimal('37708'))
-('TKR', Decimal('3484'))
-('TLT', Decimal('42560'))
-('TM', Decimal('2872'))
-('TMO', Decimal('14996'))
-('TPX', Decimal('2508'))
-('TRIP', Decimal('22162'))
-('TROW', Decimal('6020'))
-('TRUP', Decimal('23692'))
-('TRW', Decimal('11822'))
-('TSCO', Decimal('16304'))
-('TSL', Decimal('800'))
-('TSLA', Decimal('144360'))
-('TSM', Decimal('2000'))
-('TSN', Decimal('7082'))
-('TSO', Decimal('602'))
-('TUBE', Decimal('6934'))
-('TUP', Decimal('2916'))
-('TW', Decimal('1208'))
-('TWC', Decimal('109728'))
-('TWO', Decimal('2000'))
-('TWTR', Decimal('277798'))
-('TWX', Decimal('21236'))
-('TXN', Decimal('4210'))
-('TYC', Decimal('13410'))
-('TZA', Decimal('15266'))
-('UA', Decimal('14792'))
-('UFS', Decimal('4300'))
-('UHS', Decimal('624'))
-('UL', Decimal('1400'))
-('ULTA', Decimal('10266'))
-('UN', Decimal('2000'))
-('UNP', Decimal('34924'))
-('URBN', Decimal('2600'))
-('URI', Decimal('1268'))
-('USB', Decimal('21032'))
-('USG', Decimal('1800'))
-('USNA', Decimal('8904'))
-('USO', Decimal('111974'))
-('USU', Decimal('2000'))
-('UTEK', Decimal('834'))
-('UTHR', Decimal('18478'))
-('V', Decimal('93204'))
-('VAL', Decimal('2264'))
-('VALE', Decimal('2000'))
-('VAR', Decimal('4978'))
-('VFC', Decimal('21504'))
-('VIPS', Decimal('2420'))
-('VMC', Decimal('802'))
-('VMI', Decimal('410'))
-('VMW', Decimal('37048'))
-('VOD', Decimal('14470'))
-('VRSK', Decimal('1344'))
-('VRTX', Decimal('31194'))
-('VRX', Decimal('67258'))
-('VSI', Decimal('1648'))
-('VWO', Decimal('66746'))
-('VXX', Decimal('182832'))
-('VZ', Decimal('3810'))
-('WAB', Decimal('1182'))
-('WAT', Decimal('3322'))
-('WBC', Decimal('2000'))
-('WBMD', Decimal('404'))
-('WCC', Decimal('800'))
-('WCG', Decimal('1344'))
-('WDAY', Decimal('7268'))
-('WDR', Decimal('1800'))
-('WETF', Decimal('2800'))
-('WFC', Decimal('39332'))
-('WFT', Decimal('15302'))
-('WHR', Decimal('23594'))
-('WLK', Decimal('17962'))
-('WLP', Decimal('2406'))
-('WMB', Decimal('6182'))
-('WMT', Decimal('52206'))
-('WPX', Decimal('4890'))
-('WPZ', Decimal('1314'))
-('WRLD', Decimal('2621'))
-('WSM', Decimal('1000'))
-('WSO', Decimal('1600'))
-('WUBA', Decimal('13480'))
-('WYN', Decimal('200'))
-('WYNN', Decimal('43688'))
-('X', Decimal('13002'))
-('XEC', Decimal('37314'))
-('XLB', Decimal('17228'))
-('XLE', Decimal('59972'))
-('XLF', Decimal('29800'))
-('XLI', Decimal('45402'))
-('XLK', Decimal('7000'))
-('XLP', Decimal('12400'))
-('XLU', Decimal('36954'))
-('XLV', Decimal('12400'))
-('XLY', Decimal('24412'))
-('XONE', Decimal('11926'))
-('XRAY', Decimal('200'))
-('YELP', Decimal('39204'))
-('YHOO', Decimal('5584'))
-('YRCW', Decimal('7628'))
-('YUM', Decimal('6'))
-('YY', Decimal('20780'))
-('Z', Decimal('25968'))
-('ZINC', Decimal('13420'))
-('ZMH', Decimal('1218'))
-('ZNGA', Decimal('90146'))
-('ZTS', Decimal('3436'))
+{u'Symbol': 'AA', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'AAP', u'EM_Volume': Decimal('5222')}
+{u'Symbol': 'AAPL', u'EM_Volume': Decimal('1078134')}
+{u'Symbol': 'ABBV', u'EM_Volume': Decimal('66702')}
+{u'Symbol': 'ABT', u'EM_Volume': Decimal('15410')}
+{u'Symbol': 'ACHN', u'EM_Volume': Decimal('1458')}
+{u'Symbol': 'ACN', u'EM_Volume': Decimal('5356')}
+{u'Symbol': 'ACT', u'EM_Volume': Decimal('52492')}
+{u'Symbol': 'ADM', u'EM_Volume': Decimal('26664')}
+{u'Symbol': 'ADS', u'EM_Volume': Decimal('11300')}
+{u'Symbol': 'AEGR', u'EM_Volume': Decimal('4490')}
+{u'Symbol': 'AET', u'EM_Volume': Decimal('1364')}
+{u'Symbol': 'AFL', u'EM_Volume': Decimal('6878')}
+{u'Symbol': 'AFSI', u'EM_Volume': Decimal('1200')}
+{u'Symbol': 'AGCO', u'EM_Volume': Decimal('1966')}
+{u'Symbol': 'AGN', u'EM_Volume': Decimal('46540')}
+{u'Symbol': 'AGU', u'EM_Volume': Decimal('3042')}
+{u'Symbol': 'AIG', u'EM_Volume': Decimal('36042')}
+{u'Symbol': 'AIRM', u'EM_Volume': Decimal('3900')}
+{u'Symbol': 'AIZ', u'EM_Volume': Decimal('2066')}
+{u'Symbol': 'AKS', u'EM_Volume': Decimal('2800')}
+{u'Symbol': 'ALGN', u'EM_Volume': Decimal('1800')}
+{u'Symbol': 'ALL', u'EM_Volume': Decimal('17050')}
+{u'Symbol': 'ALV', u'EM_Volume': Decimal('16320')}
+{u'Symbol': 'ALXN', u'EM_Volume': Decimal('17438')}
+{u'Symbol': 'AMCX', u'EM_Volume': Decimal('4154')}
+{u'Symbol': 'AMD', u'EM_Volume': Decimal('17940')}
+{u'Symbol': 'AMED', u'EM_Volume': Decimal('976')}
+{u'Symbol': 'AMG', u'EM_Volume': Decimal('18628')}
+{u'Symbol': 'AMP', u'EM_Volume': Decimal('4504')}
+{u'Symbol': 'AMTD', u'EM_Volume': Decimal('25914')}
+{u'Symbol': 'AMX', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'AMZN', u'EM_Volume': Decimal('112950')}
+{u'Symbol': 'ANAC', u'EM_Volume': Decimal('27856')}
+{u'Symbol': 'ANF', u'EM_Volume': Decimal('1526')}
+{u'Symbol': 'ANR', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'ANSS', u'EM_Volume': Decimal('800')}
+{u'Symbol': 'APC', u'EM_Volume': Decimal('5400')}
+{u'Symbol': 'APD', u'EM_Volume': Decimal('2686')}
+{u'Symbol': 'APH', u'EM_Volume': Decimal('4764')}
+{u'Symbol': 'APO', u'EM_Volume': Decimal('1500')}
+{u'Symbol': 'ARE', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'ARG', u'EM_Volume': Decimal('680')}
+{u'Symbol': 'ASH', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'ASML', u'EM_Volume': Decimal('22366')}
+{u'Symbol': 'ATHN', u'EM_Volume': Decimal('14860')}
+{u'Symbol': 'ATW', u'EM_Volume': Decimal('1804')}
+{u'Symbol': 'AVB', u'EM_Volume': Decimal('17358')}
+{u'Symbol': 'AVGO', u'EM_Volume': Decimal('9868')}
+{u'Symbol': 'AVY', u'EM_Volume': Decimal('5460')}
+{u'Symbol': 'AWI', u'EM_Volume': Decimal('3000')}
+{u'Symbol': 'AXE', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'AYI', u'EM_Volume': Decimal('12406')}
+{u'Symbol': 'AZO', u'EM_Volume': Decimal('17730')}
+{u'Symbol': 'BAC', u'EM_Volume': Decimal('626798')}
+{u'Symbol': 'BAK', u'EM_Volume': Decimal('2')}
+{u'Symbol': 'BAP', u'EM_Volume': Decimal('992')}
+{u'Symbol': 'BBBY', u'EM_Volume': Decimal('9080')}
+{u'Symbol': 'BBD', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'BBG', u'EM_Volume': Decimal('1240')}
+{u'Symbol': 'BBL', u'EM_Volume': Decimal('1600')}
+{u'Symbol': 'BBT', u'EM_Volume': Decimal('89154')}
+{u'Symbol': 'BBY', u'EM_Volume': Decimal('9934')}
+{u'Symbol': 'BCR', u'EM_Volume': Decimal('2258')}
+{u'Symbol': 'BCS', u'EM_Volume': Decimal('2800')}
+{u'Symbol': 'BDBD', u'EM_Volume': Decimal('2800')}
+{u'Symbol': 'BDX', u'EM_Volume': Decimal('1792')}
+{u'Symbol': 'BG', u'EM_Volume': Decimal('1076')}
+{u'Symbol': 'BHP', u'EM_Volume': Decimal('856')}
+{u'Symbol': 'BIDU', u'EM_Volume': Decimal('217632')}
+{u'Symbol': 'BIIB', u'EM_Volume': Decimal('72164')}
+{u'Symbol': 'BIOF', u'EM_Volume': Decimal('4222')}
+{u'Symbol': 'BITA', u'EM_Volume': Decimal('4912')}
+{u'Symbol': 'BLK', u'EM_Volume': Decimal('35876')}
+{u'Symbol': 'BLMN', u'EM_Volume': Decimal('938')}
+{u'Symbol': 'BMRN', u'EM_Volume': Decimal('22618')}
+{u'Symbol': 'BMY', u'EM_Volume': Decimal('59452')}
+{u'Symbol': 'BOH', u'EM_Volume': Decimal('804')}
+{u'Symbol': 'BP', u'EM_Volume': Decimal('12632')}
+{u'Symbol': 'BPL', u'EM_Volume': Decimal('5556')}
+{u'Symbol': 'BRCM', u'EM_Volume': Decimal('7330')}
+{u'Symbol': 'BSFT', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'BTU', u'EM_Volume': Decimal('10000')}
+{u'Symbol': 'BUD', u'EM_Volume': Decimal('7422')}
+{u'Symbol': 'BWA', u'EM_Volume': Decimal('3934')}
+{u'Symbol': 'BWLD', u'EM_Volume': Decimal('12904')}
+{u'Symbol': 'BX', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'BXP', u'EM_Volume': Decimal('986')}
+{u'Symbol': 'C', u'EM_Volume': Decimal('62616')}
+{u'Symbol': 'CAB', u'EM_Volume': Decimal('800')}
+{u'Symbol': 'CACI', u'EM_Volume': Decimal('2210')}
+{u'Symbol': 'CAM', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'CASY', u'EM_Volume': Decimal('2318')}
+{u'Symbol': 'CAVM', u'EM_Volume': Decimal('1800')}
+{u'Symbol': 'CB', u'EM_Volume': Decimal('8138')}
+{u'Symbol': 'CBAK', u'EM_Volume': Decimal('3800')}
+{u'Symbol': 'CBD', u'EM_Volume': Decimal('2294')}
+{u'Symbol': 'CBI', u'EM_Volume': Decimal('1626')}
+{u'Symbol': 'CBS', u'EM_Volume': Decimal('440')}
+{u'Symbol': 'CBST', u'EM_Volume': Decimal('4742')}
+{u'Symbol': 'CCL', u'EM_Volume': Decimal('3734')}
+{u'Symbol': 'CELG', u'EM_Volume': Decimal('26824')}
+{u'Symbol': 'CERN', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'CF', u'EM_Volume': Decimal('31676')}
+{u'Symbol': 'CFX', u'EM_Volume': Decimal('3228')}
+{u'Symbol': 'CHD', u'EM_Volume': Decimal('13400')}
+{u'Symbol': 'CHE', u'EM_Volume': Decimal('1116')}
+{u'Symbol': 'CHK', u'EM_Volume': Decimal('40918')}
+{u'Symbol': 'CHKP', u'EM_Volume': Decimal('2400')}
+{u'Symbol': 'CHL', u'EM_Volume': Decimal('800')}
+{u'Symbol': 'CHRW', u'EM_Volume': Decimal('1200')}
+{u'Symbol': 'CIB', u'EM_Volume': Decimal('48')}
+{u'Symbol': 'CIG', u'EM_Volume': Decimal('4')}
+{u'Symbol': 'CINF', u'EM_Volume': Decimal('2812')}
+{u'Symbol': 'CL', u'EM_Volume': Decimal('7602')}
+{u'Symbol': 'CLB', u'EM_Volume': Decimal('9594')}
+{u'Symbol': 'CLF', u'EM_Volume': Decimal('4782')}
+{u'Symbol': 'CLH', u'EM_Volume': Decimal('1016')}
+{u'Symbol': 'CLR', u'EM_Volume': Decimal('34310')}
+{u'Symbol': 'CLVS', u'EM_Volume': Decimal('1400')}
+{u'Symbol': 'CLX', u'EM_Volume': Decimal('2798')}
+{u'Symbol': 'CMCSA', u'EM_Volume': Decimal('77062')}
+{u'Symbol': 'CMCSK', u'EM_Volume': Decimal('24002')}
+{u'Symbol': 'CMG', u'EM_Volume': Decimal('119614')}
+{u'Symbol': 'CMI', u'EM_Volume': Decimal('29144')}
+{u'Symbol': 'CNC', u'EM_Volume': Decimal('7632')}
+{u'Symbol': 'CNI', u'EM_Volume': Decimal('4408')}
+{u'Symbol': 'CNQR', u'EM_Volume': Decimal('1466')}
+{u'Symbol': 'COG', u'EM_Volume': Decimal('4582')}
+{u'Symbol': 'COH', u'EM_Volume': Decimal('11814')}
+{u'Symbol': 'COL', u'EM_Volume': Decimal('5664')}
+{u'Symbol': 'CONN', u'EM_Volume': Decimal('12062')}
+{u'Symbol': 'COO', u'EM_Volume': Decimal('2484')}
+{u'Symbol': 'COST', u'EM_Volume': Decimal('220')}
+{u'Symbol': 'COV', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'CP', u'EM_Volume': Decimal('1348')}
+{u'Symbol': 'CPA', u'EM_Volume': Decimal('1304')}
+{u'Symbol': 'CPHD', u'EM_Volume': Decimal('902')}
+{u'Symbol': 'CPRT', u'EM_Volume': Decimal('5732')}
+{u'Symbol': 'CPT', u'EM_Volume': Decimal('2248')}
+{u'Symbol': 'CREE', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'CRI', u'EM_Volume': Decimal('1190')}
+{u'Symbol': 'CROX', u'EM_Volume': Decimal('5376')}
+{u'Symbol': 'CRR', u'EM_Volume': Decimal('4068')}
+{u'Symbol': 'CSCO', u'EM_Volume': Decimal('72224')}
+{u'Symbol': 'CSX', u'EM_Volume': Decimal('15004')}
+{u'Symbol': 'CTRP', u'EM_Volume': Decimal('1168')}
+{u'Symbol': 'CTXS', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'CVLT', u'EM_Volume': Decimal('9252')}
+{u'Symbol': 'CVRR', u'EM_Volume': Decimal('1200')}
+{u'Symbol': 'CVX', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'CXO', u'EM_Volume': Decimal('6400')}
+{u'Symbol': 'CXW', u'EM_Volume': Decimal('1050')}
+{u'Symbol': 'CYN', u'EM_Volume': Decimal('872')}
+{u'Symbol': 'CYT', u'EM_Volume': Decimal('3492')}
+{u'Symbol': 'DAL', u'EM_Volume': Decimal('28632')}
+{u'Symbol': 'DATA', u'EM_Volume': Decimal('12848')}
+{u'Symbol': 'DDD', u'EM_Volume': Decimal('25098')}
+{u'Symbol': 'DDS', u'EM_Volume': Decimal('1988')}
+{u'Symbol': 'DECK', u'EM_Volume': Decimal('1750')}
+{u'Symbol': 'DEO', u'EM_Volume': Decimal('21990')}
+{u'Symbol': 'DHI', u'EM_Volume': Decimal('17088')}
+{u'Symbol': 'DHR', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'DIA', u'EM_Volume': Decimal('199152')}
+{u'Symbol': 'DISCA', u'EM_Volume': Decimal('5470')}
+{u'Symbol': 'DISCK', u'EM_Volume': Decimal('3254')}
+{u'Symbol': 'DKS', u'EM_Volume': Decimal('806')}
+{u'Symbol': 'DLR', u'EM_Volume': Decimal('4384')}
+{u'Symbol': 'DNB', u'EM_Volume': Decimal('1068')}
+{u'Symbol': 'DO', u'EM_Volume': Decimal('1600')}
+{u'Symbol': 'DOV', u'EM_Volume': Decimal('20854')}
+{u'Symbol': 'DOW', u'EM_Volume': Decimal('14954')}
+{u'Symbol': 'DPS', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'DRQ', u'EM_Volume': Decimal('1486')}
+{u'Symbol': 'DSW', u'EM_Volume': Decimal('1426')}
+{u'Symbol': 'DTE', u'EM_Volume': Decimal('242')}
+{u'Symbol': 'DVA', u'EM_Volume': Decimal('3108')}
+{u'Symbol': 'DWA', u'EM_Volume': Decimal('1144')}
+{u'Symbol': 'E', u'EM_Volume': Decimal('2')}
+{u'Symbol': 'EAT', u'EM_Volume': Decimal('800')}
+{u'Symbol': 'EBAY', u'EM_Volume': Decimal('47114')}
+{u'Symbol': 'EC', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'ECA', u'EM_Volume': Decimal('1400')}
+{u'Symbol': 'ECL', u'EM_Volume': Decimal('928')}
+{u'Symbol': 'EEM', u'EM_Volume': Decimal('1915420')}
+{u'Symbol': 'EFA', u'EM_Volume': Decimal('95672')}
+{u'Symbol': 'EGAS', u'EM_Volume': Decimal('3488')}
+{u'Symbol': 'EGN', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'ELP', u'EM_Volume': Decimal('2')}
+{u'Symbol': 'ELS', u'EM_Volume': Decimal('300')}
+{u'Symbol': 'EMB', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'EMC', u'EM_Volume': Decimal('150406')}
+{u'Symbol': 'EMN', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'ENPH', u'EM_Volume': Decimal('13586')}
+{u'Symbol': 'ENR', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'ENT', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'EOG', u'EM_Volume': Decimal('37186')}
+{u'Symbol': 'EPD', u'EM_Volume': Decimal('424')}
+{u'Symbol': 'EPR', u'EM_Volume': Decimal('3182')}
+{u'Symbol': 'EQIX', u'EM_Volume': Decimal('8522')}
+{u'Symbol': 'EQM', u'EM_Volume': Decimal('800')}
+{u'Symbol': 'EQT', u'EM_Volume': Decimal('2722')}
+{u'Symbol': 'ERJ', u'EM_Volume': Decimal('3308')}
+{u'Symbol': 'ESS', u'EM_Volume': Decimal('10058')}
+{u'Symbol': 'ESV', u'EM_Volume': Decimal('2586')}
+{u'Symbol': 'ETE', u'EM_Volume': Decimal('1400')}
+{u'Symbol': 'ETFC', u'EM_Volume': Decimal('27762')}
+{u'Symbol': 'ETP', u'EM_Volume': Decimal('2286')}
+{u'Symbol': 'EW', u'EM_Volume': Decimal('1200')}
+{u'Symbol': 'EWJ', u'EM_Volume': Decimal('61394')}
+{u'Symbol': 'EWZ', u'EM_Volume': Decimal('233192')}
+{u'Symbol': 'EXC', u'EM_Volume': Decimal('40600')}
+{u'Symbol': 'EXP', u'EM_Volume': Decimal('644')}
+{u'Symbol': 'EXTR', u'EM_Volume': Decimal('9460')}
+{u'Symbol': 'EXXI', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'EZPW', u'EM_Volume': Decimal('8220')}
+{u'Symbol': 'F', u'EM_Volume': Decimal('62010')}
+{u'Symbol': 'FANG', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'FB', u'EM_Volume': Decimal('686266')}
+{u'Symbol': 'FBHS', u'EM_Volume': Decimal('1658')}
+{u'Symbol': 'FBRC', u'EM_Volume': Decimal('100')}
+{u'Symbol': 'FCX', u'EM_Volume': Decimal('4300')}
+{u'Symbol': 'FDO', u'EM_Volume': Decimal('4950')}
+{u'Symbol': 'FDX', u'EM_Volume': Decimal('9144')}
+{u'Symbol': 'FE', u'EM_Volume': Decimal('11332')}
+{u'Symbol': 'FEYE', u'EM_Volume': Decimal('51488')}
+{u'Symbol': 'FFIV', u'EM_Volume': Decimal('28284')}
+{u'Symbol': 'FIS', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'FISV', u'EM_Volume': Decimal('14204')}
+{u'Symbol': 'FLR', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'FLT', u'EM_Volume': Decimal('7604')}
+{u'Symbol': 'FMX', u'EM_Volume': Decimal('8168')}
+{u'Symbol': 'FOLD', u'EM_Volume': Decimal('1400')}
+{u'Symbol': 'FOSL', u'EM_Volume': Decimal('4454')}
+{u'Symbol': 'FOX', u'EM_Volume': Decimal('27972')}
+{u'Symbol': 'FOXA', u'EM_Volume': Decimal('104236')}
+{u'Symbol': 'FRT', u'EM_Volume': Decimal('246')}
+{u'Symbol': 'FSLR', u'EM_Volume': Decimal('4924')}
+{u'Symbol': 'FTI', u'EM_Volume': Decimal('4400')}
+{u'Symbol': 'FXI', u'EM_Volume': Decimal('115034')}
+{u'Symbol': 'GD', u'EM_Volume': Decimal('1126')}
+{u'Symbol': 'GDX', u'EM_Volume': Decimal('51216')}
+{u'Symbol': 'GE', u'EM_Volume': Decimal('386296')}
+{u'Symbol': 'GEO', u'EM_Volume': Decimal('430')}
+{u'Symbol': 'GG', u'EM_Volume': Decimal('5034')}
+{u'Symbol': 'GHL', u'EM_Volume': Decimal('232')}
+{u'Symbol': 'GIS', u'EM_Volume': Decimal('30956')}
+{u'Symbol': 'GLD', u'EM_Volume': Decimal('134492')}
+{u'Symbol': 'GLOB', u'EM_Volume': Decimal('6918')}
+{u'Symbol': 'GLUU', u'EM_Volume': Decimal('15736')}
+{u'Symbol': 'GM', u'EM_Volume': Decimal('5972')}
+{u'Symbol': 'GMCR', u'EM_Volume': Decimal('51364')}
+{u'Symbol': 'GMT', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'GOGO', u'EM_Volume': Decimal('2414')}
+{u'Symbol': 'GOLD', u'EM_Volume': Decimal('5066')}
+{u'Symbol': 'GOOG', u'EM_Volume': Decimal('113998')}
+{u'Symbol': 'GOOGL', u'EM_Volume': Decimal('124326')}
+{u'Symbol': 'GPC', u'EM_Volume': Decimal('39356')}
+{u'Symbol': 'GPOR', u'EM_Volume': Decimal('2672')}
+{u'Symbol': 'GPRO', u'EM_Volume': Decimal('517734')}
+{u'Symbol': 'GRA', u'EM_Volume': Decimal('1944')}
+{u'Symbol': 'GRPN', u'EM_Volume': Decimal('31702')}
+{u'Symbol': 'GS', u'EM_Volume': Decimal('59076')}
+{u'Symbol': 'GSK', u'EM_Volume': Decimal('33644')}
+{u'Symbol': 'GTLS', u'EM_Volume': Decimal('4080')}
+{u'Symbol': 'GWR', u'EM_Volume': Decimal('2620')}
+{u'Symbol': 'GWRE', u'EM_Volume': Decimal('1358')}
+{u'Symbol': 'GWW', u'EM_Volume': Decimal('25434')}
+{u'Symbol': 'HAIN', u'EM_Volume': Decimal('772')}
+{u'Symbol': 'HAL', u'EM_Volume': Decimal('218812')}
+{u'Symbol': 'HAR', u'EM_Volume': Decimal('3742')}
+{u'Symbol': 'HAS', u'EM_Volume': Decimal('55290')}
+{u'Symbol': 'HBI', u'EM_Volume': Decimal('2138')}
+{u'Symbol': 'HCP', u'EM_Volume': Decimal('5646')}
+{u'Symbol': 'HD', u'EM_Volume': Decimal('56946')}
+{u'Symbol': 'HDS', u'EM_Volume': Decimal('6858')}
+{u'Symbol': 'HFC', u'EM_Volume': Decimal('864')}
+{u'Symbol': 'HIG', u'EM_Volume': Decimal('614')}
+{u'Symbol': 'HLF', u'EM_Volume': Decimal('940128')}
+{u'Symbol': 'HMSY', u'EM_Volume': Decimal('3428')}
+{u'Symbol': 'HOG', u'EM_Volume': Decimal('4358')}
+{u'Symbol': 'HOT', u'EM_Volume': Decimal('1938')}
+{u'Symbol': 'HP', u'EM_Volume': Decimal('3100')}
+{u'Symbol': 'HPQ', u'EM_Volume': Decimal('34804')}
+{u'Symbol': 'HRB', u'EM_Volume': Decimal('3598')}
+{u'Symbol': 'HRS', u'EM_Volume': Decimal('810')}
+{u'Symbol': 'HSBC', u'EM_Volume': Decimal('4290')}
+{u'Symbol': 'HSH', u'EM_Volume': Decimal('1800')}
+{u'Symbol': 'HSIC', u'EM_Volume': Decimal('11922')}
+{u'Symbol': 'HTZ', u'EM_Volume': Decimal('45402')}
+{u'Symbol': 'HUM', u'EM_Volume': Decimal('2700')}
+{u'Symbol': 'IAU', u'EM_Volume': Decimal('1600')}
+{u'Symbol': 'IBB', u'EM_Volume': Decimal('50824')}
+{u'Symbol': 'IBM', u'EM_Volume': Decimal('8306')}
+{u'Symbol': 'ICE', u'EM_Volume': Decimal('30618')}
+{u'Symbol': 'ICLD', u'EM_Volume': Decimal('6000')}
+{u'Symbol': 'ICON', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'ICPT', u'EM_Volume': Decimal('8010')}
+{u'Symbol': 'IDCC', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'IDIX', u'EM_Volume': Decimal('2156')}
+{u'Symbol': 'IDXX', u'EM_Volume': Decimal('1004')}
+{u'Symbol': 'IFF', u'EM_Volume': Decimal('616')}
+{u'Symbol': 'ILMN', u'EM_Volume': Decimal('2640')}
+{u'Symbol': 'INCY', u'EM_Volume': Decimal('10186')}
+{u'Symbol': 'INGR', u'EM_Volume': Decimal('388')}
+{u'Symbol': 'INTC', u'EM_Volume': Decimal('191162')}
+{u'Symbol': 'IOC', u'EM_Volume': Decimal('9722')}
+{u'Symbol': 'IPGP', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'IRBT', u'EM_Volume': Decimal('25530')}
+{u'Symbol': 'IRM', u'EM_Volume': Decimal('4798')}
+{u'Symbol': 'ISRG', u'EM_Volume': Decimal('39882')}
+{u'Symbol': 'IT', u'EM_Volume': Decimal('620')}
+{u'Symbol': 'ITRI', u'EM_Volume': Decimal('20796')}
+{u'Symbol': 'IVZ', u'EM_Volume': Decimal('5228')}
+{u'Symbol': 'IWM', u'EM_Volume': Decimal('255368')}
+{u'Symbol': 'JAZZ', u'EM_Volume': Decimal('6030')}
+{u'Symbol': 'JBHT', u'EM_Volume': Decimal('1200')}
+{u'Symbol': 'JNPR', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'JOY', u'EM_Volume': Decimal('1180')}
+{u'Symbol': 'JPM', u'EM_Volume': Decimal('73840')}
+{u'Symbol': 'JWN', u'EM_Volume': Decimal('610')}
+{u'Symbol': 'KB', u'EM_Volume': Decimal('2')}
+{u'Symbol': 'KBR', u'EM_Volume': Decimal('5408')}
+{u'Symbol': 'KEX', u'EM_Volume': Decimal('1624')}
+{u'Symbol': 'KGC', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'KIM', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'KING', u'EM_Volume': Decimal('3000')}
+{u'Symbol': 'KMB', u'EM_Volume': Decimal('2774')}
+{u'Symbol': 'KMI', u'EM_Volume': Decimal('7790')}
+{u'Symbol': 'KMP', u'EM_Volume': Decimal('2414')}
+{u'Symbol': 'KMR', u'EM_Volume': Decimal('950')}
+{u'Symbol': 'KNDI', u'EM_Volume': Decimal('201730')}
+{u'Symbol': 'KO', u'EM_Volume': Decimal('33266')}
+{u'Symbol': 'KORS', u'EM_Volume': Decimal('5218')}
+{u'Symbol': 'KR', u'EM_Volume': Decimal('22138')}
+{u'Symbol': 'KRC', u'EM_Volume': Decimal('8448')}
+{u'Symbol': 'KT', u'EM_Volume': Decimal('2')}
+{u'Symbol': 'KYN', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'L', u'EM_Volume': Decimal('1400')}
+{u'Symbol': 'LAD', u'EM_Volume': Decimal('3132')}
+{u'Symbol': 'LBTYA', u'EM_Volume': Decimal('30892')}
+{u'Symbol': 'LBTYK', u'EM_Volume': Decimal('42970')}
+{u'Symbol': 'LEA', u'EM_Volume': Decimal('12820')}
+{u'Symbol': 'LECO', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'LH', u'EM_Volume': Decimal('3988')}
+{u'Symbol': 'LHO', u'EM_Volume': Decimal('4')}
+{u'Symbol': 'LII', u'EM_Volume': Decimal('41258')}
+{u'Symbol': 'LL', u'EM_Volume': Decimal('5882')}
+{u'Symbol': 'LLY', u'EM_Volume': Decimal('3816')}
+{u'Symbol': 'LMCA', u'EM_Volume': Decimal('20954')}
+{u'Symbol': 'LMT', u'EM_Volume': Decimal('5770')}
+{u'Symbol': 'LNKD', u'EM_Volume': Decimal('32908')}
+{u'Symbol': 'LOW', u'EM_Volume': Decimal('3946')}
+{u'Symbol': 'LPNT', u'EM_Volume': Decimal('538')}
+{u'Symbol': 'LQDT', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'LRCX', u'EM_Volume': Decimal('2378')}
+{u'Symbol': 'LSTR', u'EM_Volume': Decimal('1442')}
+{u'Symbol': 'LTM', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'LULU', u'EM_Volume': Decimal('6968')}
+{u'Symbol': 'LUV', u'EM_Volume': Decimal('24060')}
+{u'Symbol': 'LYG', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'MA', u'EM_Volume': Decimal('44178')}
+{u'Symbol': 'MAC', u'EM_Volume': Decimal('4982')}
+{u'Symbol': 'MAN', u'EM_Volume': Decimal('31454')}
+{u'Symbol': 'MBT', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'MCK', u'EM_Volume': Decimal('19176')}
+{u'Symbol': 'MCO', u'EM_Volume': Decimal('2076')}
+{u'Symbol': 'MCRS', u'EM_Volume': Decimal('1600')}
+{u'Symbol': 'MD', u'EM_Volume': Decimal('14')}
+{u'Symbol': 'MDCO', u'EM_Volume': Decimal('800')}
+{u'Symbol': 'MDVN', u'EM_Volume': Decimal('2148')}
+{u'Symbol': 'MDY', u'EM_Volume': Decimal('28754')}
+{u'Symbol': 'MELI', u'EM_Volume': Decimal('602')}
+{u'Symbol': 'MGM', u'EM_Volume': Decimal('3090')}
+{u'Symbol': 'MHK', u'EM_Volume': Decimal('12960')}
+{u'Symbol': 'MJN', u'EM_Volume': Decimal('4368')}
+{u'Symbol': 'MKC', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'MLM', u'EM_Volume': Decimal('18162')}
+{u'Symbol': 'MMC', u'EM_Volume': Decimal('23492')}
+{u'Symbol': 'MNKD', u'EM_Volume': Decimal('3134')}
+{u'Symbol': 'MNST', u'EM_Volume': Decimal('3732')}
+{u'Symbol': 'MO', u'EM_Volume': Decimal('38968')}
+{u'Symbol': 'MOH', u'EM_Volume': Decimal('1046')}
+{u'Symbol': 'MPC', u'EM_Volume': Decimal('6236')}
+{u'Symbol': 'MRK', u'EM_Volume': Decimal('13662')}
+{u'Symbol': 'MRO', u'EM_Volume': Decimal('18220')}
+{u'Symbol': 'MS', u'EM_Volume': Decimal('17858')}
+{u'Symbol': 'MSFT', u'EM_Volume': Decimal('196166')}
+{u'Symbol': 'MSG', u'EM_Volume': Decimal('1852')}
+{u'Symbol': 'MTB', u'EM_Volume': Decimal('2624')}
+{u'Symbol': 'MTD', u'EM_Volume': Decimal('4274')}
+{u'Symbol': 'MTG', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'MTH', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'MU', u'EM_Volume': Decimal('10594')}
+{u'Symbol': 'MUR', u'EM_Volume': Decimal('4800')}
+{u'Symbol': 'MWE', u'EM_Volume': Decimal('2194')}
+{u'Symbol': 'NAV', u'EM_Volume': Decimal('1106')}
+{u'Symbol': 'NBL', u'EM_Volume': Decimal('16052')}
+{u'Symbol': 'NBR', u'EM_Volume': Decimal('36712')}
+{u'Symbol': 'NCLH', u'EM_Volume': Decimal('338')}
+{u'Symbol': 'NE', u'EM_Volume': Decimal('30862')}
+{u'Symbol': 'NEM', u'EM_Volume': Decimal('3278')}
+{u'Symbol': 'NEWL', u'EM_Volume': Decimal('0')}
+{u'Symbol': 'NFLX', u'EM_Volume': Decimal('488892')}
+{u'Symbol': 'NI', u'EM_Volume': Decimal('3204')}
+{u'Symbol': 'NLY', u'EM_Volume': Decimal('1600')}
+{u'Symbol': 'NOC', u'EM_Volume': Decimal('2440')}
+{u'Symbol': 'NOK', u'EM_Volume': Decimal('2200')}
+{u'Symbol': 'NQ', u'EM_Volume': Decimal('3686')}
+{u'Symbol': 'NRG', u'EM_Volume': Decimal('11008')}
+{u'Symbol': 'NSC', u'EM_Volume': Decimal('6382')}
+{u'Symbol': 'NSR', u'EM_Volume': Decimal('1608')}
+{u'Symbol': 'NTES', u'EM_Volume': Decimal('1550')}
+{u'Symbol': 'NTI', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'NUS', u'EM_Volume': Decimal('59094')}
+{u'Symbol': 'NVO', u'EM_Volume': Decimal('4')}
+{u'Symbol': 'NVS', u'EM_Volume': Decimal('6')}
+{u'Symbol': 'NXST', u'EM_Volume': Decimal('2270')}
+{u'Symbol': 'O', u'EM_Volume': Decimal('424')}
+{u'Symbol': 'OAS', u'EM_Volume': Decimal('3202')}
+{u'Symbol': 'OC', u'EM_Volume': Decimal('5228')}
+{u'Symbol': 'OCR', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'ODFL', u'EM_Volume': Decimal('2552')}
+{u'Symbol': 'OGE', u'EM_Volume': Decimal('946')}
+{u'Symbol': 'OII', u'EM_Volume': Decimal('12568')}
+{u'Symbol': 'OIS', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'OKS', u'EM_Volume': Decimal('8058')}
+{u'Symbol': 'OLED', u'EM_Volume': Decimal('800')}
+{u'Symbol': 'OPEN', u'EM_Volume': Decimal('1200')}
+{u'Symbol': 'ORCL', u'EM_Volume': Decimal('86408')}
+{u'Symbol': 'ORLY', u'EM_Volume': Decimal('38062')}
+{u'Symbol': 'OSIS', u'EM_Volume': Decimal('918')}
+{u'Symbol': 'OSK', u'EM_Volume': Decimal('4946')}
+{u'Symbol': 'OSTK', u'EM_Volume': Decimal('1398')}
+{u'Symbol': 'OUTR', u'EM_Volume': Decimal('3606')}
+{u'Symbol': 'PAA', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'PANW', u'EM_Volume': Decimal('2230')}
+{u'Symbol': 'PBR', u'EM_Volume': Decimal('47116')}
+{u'Symbol': 'PBY', u'EM_Volume': Decimal('2')}
+{u'Symbol': 'PCAR', u'EM_Volume': Decimal('1262')}
+{u'Symbol': 'PCL', u'EM_Volume': Decimal('690')}
+{u'Symbol': 'PCLN', u'EM_Volume': Decimal('35782')}
+{u'Symbol': 'PCP', u'EM_Volume': Decimal('14744')}
+{u'Symbol': 'PCYC', u'EM_Volume': Decimal('16324')}
+{u'Symbol': 'PDCE', u'EM_Volume': Decimal('6230')}
+{u'Symbol': 'PEG', u'EM_Volume': Decimal('18128')}
+{u'Symbol': 'PEP', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'PETM', u'EM_Volume': Decimal('19080')}
+{u'Symbol': 'PFE', u'EM_Volume': Decimal('67226')}
+{u'Symbol': 'PG', u'EM_Volume': Decimal('49986')}
+{u'Symbol': 'PH', u'EM_Volume': Decimal('2254')}
+{u'Symbol': 'PII', u'EM_Volume': Decimal('15470')}
+{u'Symbol': 'PKG', u'EM_Volume': Decimal('1836')}
+{u'Symbol': 'PLCE', u'EM_Volume': Decimal('3978')}
+{u'Symbol': 'PLD', u'EM_Volume': Decimal('9092')}
+{u'Symbol': 'PLL', u'EM_Volume': Decimal('1262')}
+{u'Symbol': 'PLUG', u'EM_Volume': Decimal('1400')}
+{u'Symbol': 'PNR', u'EM_Volume': Decimal('3642')}
+{u'Symbol': 'PNRA', u'EM_Volume': Decimal('15170')}
+{u'Symbol': 'PNW', u'EM_Volume': Decimal('5002')}
+{u'Symbol': 'POT', u'EM_Volume': Decimal('4722')}
+{u'Symbol': 'PPG', u'EM_Volume': Decimal('41762')}
+{u'Symbol': 'PPL', u'EM_Volume': Decimal('24824')}
+{u'Symbol': 'PPO', u'EM_Volume': Decimal('1606')}
+{u'Symbol': 'PRE', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'PRGO', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'PRU', u'EM_Volume': Decimal('10658')}
+{u'Symbol': 'PRXL', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'PSA', u'EM_Volume': Decimal('11312')}
+{u'Symbol': 'PSX', u'EM_Volume': Decimal('4546')}
+{u'Symbol': 'PUK', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'PVH', u'EM_Volume': Decimal('2006')}
+{u'Symbol': 'PWRD', u'EM_Volume': Decimal('1822')}
+{u'Symbol': 'PX', u'EM_Volume': Decimal('3370')}
+{u'Symbol': 'PXD', u'EM_Volume': Decimal('27464')}
+{u'Symbol': 'QCOM', u'EM_Volume': Decimal('13988')}
+{u'Symbol': 'QCOR', u'EM_Volume': Decimal('52800')}
+{u'Symbol': 'QIHU', u'EM_Volume': Decimal('9266')}
+{u'Symbol': 'QQQ', u'EM_Volume': Decimal('1809846')}
+{u'Symbol': 'RAD', u'EM_Volume': Decimal('58354')}
+{u'Symbol': 'RAI', u'EM_Volume': Decimal('1400')}
+{u'Symbol': 'RCII', u'EM_Volume': Decimal('1200')}
+{u'Symbol': 'RCL', u'EM_Volume': Decimal('6')}
+{u'Symbol': 'RDC', u'EM_Volume': Decimal('4400')}
+{u'Symbol': 'RE', u'EM_Volume': Decimal('7778')}
+{u'Symbol': 'REGN', u'EM_Volume': Decimal('42054')}
+{u'Symbol': 'REXX', u'EM_Volume': Decimal('2416')}
+{u'Symbol': 'RGA', u'EM_Volume': Decimal('2684')}
+{u'Symbol': 'RGLD', u'EM_Volume': Decimal('3616')}
+{u'Symbol': 'RH', u'EM_Volume': Decimal('1496')}
+{u'Symbol': 'RHI', u'EM_Volume': Decimal('1400')}
+{u'Symbol': 'RIO', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'RKT', u'EM_Volume': Decimal('30180')}
+{u'Symbol': 'RL', u'EM_Volume': Decimal('13916')}
+{u'Symbol': 'RLGY', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'RMD', u'EM_Volume': Decimal('1424')}
+{u'Symbol': 'RMTI', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'ROC', u'EM_Volume': Decimal('2270')}
+{u'Symbol': 'ROK', u'EM_Volume': Decimal('1604')}
+{u'Symbol': 'ROSE', u'EM_Volume': Decimal('4462')}
+{u'Symbol': 'ROST', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'RPTP', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'RRC', u'EM_Volume': Decimal('13768')}
+{u'Symbol': 'RS', u'EM_Volume': Decimal('4100')}
+{u'Symbol': 'RUBI', u'EM_Volume': Decimal('18358')}
+{u'Symbol': 'RVLT', u'EM_Volume': Decimal('1200')}
+{u'Symbol': 'RYL', u'EM_Volume': Decimal('1780')}
+{u'Symbol': 'RYN', u'EM_Volume': Decimal('626')}
+{u'Symbol': 'SAGE', u'EM_Volume': Decimal('15196')}
+{u'Symbol': 'SAP', u'EM_Volume': Decimal('2556')}
+{u'Symbol': 'SAVE', u'EM_Volume': Decimal('3920')}
+{u'Symbol': 'SBAC', u'EM_Volume': Decimal('3422')}
+{u'Symbol': 'SBNY', u'EM_Volume': Decimal('14196')}
+{u'Symbol': 'SCHW', u'EM_Volume': Decimal('6000')}
+{u'Symbol': 'SCTY', u'EM_Volume': Decimal('138902')}
+{u'Symbol': 'SDS', u'EM_Volume': Decimal('95006')}
+{u'Symbol': 'SE', u'EM_Volume': Decimal('11194')}
+{u'Symbol': 'SEAS', u'EM_Volume': Decimal('2374')}
+{u'Symbol': 'SF', u'EM_Volume': Decimal('1488')}
+{u'Symbol': 'SFLY', u'EM_Volume': Decimal('626')}
+{u'Symbol': 'SFUN', u'EM_Volume': Decimal('4800')}
+{u'Symbol': 'SGMS', u'EM_Volume': Decimal('370')}
+{u'Symbol': 'SHLD', u'EM_Volume': Decimal('938')}
+{u'Symbol': 'SHPG', u'EM_Volume': Decimal('215522')}
+{u'Symbol': 'SHW', u'EM_Volume': Decimal('21078')}
+{u'Symbol': 'SIAL', u'EM_Volume': Decimal('600')}
+{u'Symbol': 'SINA', u'EM_Volume': Decimal('9188')}
+{u'Symbol': 'SIRI', u'EM_Volume': Decimal('35600')}
+{u'Symbol': 'SIRO', u'EM_Volume': Decimal('1326')}
+{u'Symbol': 'SIVB', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'SIX', u'EM_Volume': Decimal('68682')}
+{u'Symbol': 'SJM', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'SLG', u'EM_Volume': Decimal('2178')}
+{u'Symbol': 'SLV', u'EM_Volume': Decimal('2400')}
+{u'Symbol': 'SLW', u'EM_Volume': Decimal('4846')}
+{u'Symbol': 'SLXP', u'EM_Volume': Decimal('1614')}
+{u'Symbol': 'SM', u'EM_Volume': Decimal('25308')}
+{u'Symbol': 'SMTC', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'SNA', u'EM_Volume': Decimal('2044')}
+{u'Symbol': 'SNI', u'EM_Volume': Decimal('2458')}
+{u'Symbol': 'SNY', u'EM_Volume': Decimal('4350')}
+{u'Symbol': 'SO', u'EM_Volume': Decimal('3882')}
+{u'Symbol': 'SODA', u'EM_Volume': Decimal('9508')}
+{u'Symbol': 'SPLK', u'EM_Volume': Decimal('7766')}
+{u'Symbol': 'SPN', u'EM_Volume': Decimal('3040')}
+{u'Symbol': 'SPW', u'EM_Volume': Decimal('1712')}
+{u'Symbol': 'SPXU', u'EM_Volume': Decimal('63798')}
+{u'Symbol': 'SPY', u'EM_Volume': Decimal('3441456')}
+{u'Symbol': 'SRCL', u'EM_Volume': Decimal('3866')}
+{u'Symbol': 'SRPT', u'EM_Volume': Decimal('4400')}
+{u'Symbol': 'SSL', u'EM_Volume': Decimal('2')}
+{u'Symbol': 'SSW', u'EM_Volume': Decimal('3714')}
+{u'Symbol': 'SSYS', u'EM_Volume': Decimal('9832')}
+{u'Symbol': 'STI', u'EM_Volume': Decimal('53296')}
+{u'Symbol': 'STLD', u'EM_Volume': Decimal('21906')}
+{u'Symbol': 'SU', u'EM_Volume': Decimal('19076')}
+{u'Symbol': 'SUMR', u'EM_Volume': Decimal('10476')}
+{u'Symbol': 'SWI', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'SWK', u'EM_Volume': Decimal('2766')}
+{u'Symbol': 'SYT', u'EM_Volume': Decimal('4')}
+{u'Symbol': 'T', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'TBT', u'EM_Volume': Decimal('9934')}
+{u'Symbol': 'TCBI', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'TCO', u'EM_Volume': Decimal('400')}
+{u'Symbol': 'TD', u'EM_Volume': Decimal('1200')}
+{u'Symbol': 'TDC', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'TDG', u'EM_Volume': Decimal('6972')}
+{u'Symbol': 'TDW', u'EM_Volume': Decimal('638')}
+{u'Symbol': 'TEL', u'EM_Volume': Decimal('3894')}
+{u'Symbol': 'TERP', u'EM_Volume': Decimal('25508')}
+{u'Symbol': 'TFM', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'TGI', u'EM_Volume': Decimal('800')}
+{u'Symbol': 'TGT', u'EM_Volume': Decimal('37056')}
+{u'Symbol': 'THRX', u'EM_Volume': Decimal('2328')}
+{u'Symbol': 'TIF', u'EM_Volume': Decimal('4648')}
+{u'Symbol': 'TJX', u'EM_Volume': Decimal('37708')}
+{u'Symbol': 'TKR', u'EM_Volume': Decimal('3484')}
+{u'Symbol': 'TLT', u'EM_Volume': Decimal('42560')}
+{u'Symbol': 'TM', u'EM_Volume': Decimal('2872')}
+{u'Symbol': 'TMO', u'EM_Volume': Decimal('14996')}
+{u'Symbol': 'TPX', u'EM_Volume': Decimal('2508')}
+{u'Symbol': 'TRIP', u'EM_Volume': Decimal('22162')}
+{u'Symbol': 'TROW', u'EM_Volume': Decimal('6020')}
+{u'Symbol': 'TRUP', u'EM_Volume': Decimal('23692')}
+{u'Symbol': 'TRW', u'EM_Volume': Decimal('11822')}
+{u'Symbol': 'TSCO', u'EM_Volume': Decimal('16304')}
+{u'Symbol': 'TSL', u'EM_Volume': Decimal('800')}
+{u'Symbol': 'TSLA', u'EM_Volume': Decimal('144360')}
+{u'Symbol': 'TSM', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'TSN', u'EM_Volume': Decimal('7082')}
+{u'Symbol': 'TSO', u'EM_Volume': Decimal('602')}
+{u'Symbol': 'TUBE', u'EM_Volume': Decimal('6934')}
+{u'Symbol': 'TUP', u'EM_Volume': Decimal('2916')}
+{u'Symbol': 'TW', u'EM_Volume': Decimal('1208')}
+{u'Symbol': 'TWC', u'EM_Volume': Decimal('109728')}
+{u'Symbol': 'TWO', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'TWTR', u'EM_Volume': Decimal('277798')}
+{u'Symbol': 'TWX', u'EM_Volume': Decimal('21236')}
+{u'Symbol': 'TXN', u'EM_Volume': Decimal('4210')}
+{u'Symbol': 'TYC', u'EM_Volume': Decimal('13410')}
+{u'Symbol': 'TZA', u'EM_Volume': Decimal('15266')}
+{u'Symbol': 'UA', u'EM_Volume': Decimal('14792')}
+{u'Symbol': 'UFS', u'EM_Volume': Decimal('4300')}
+{u'Symbol': 'UHS', u'EM_Volume': Decimal('624')}
+{u'Symbol': 'UL', u'EM_Volume': Decimal('1400')}
+{u'Symbol': 'ULTA', u'EM_Volume': Decimal('10266')}
+{u'Symbol': 'UN', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'UNP', u'EM_Volume': Decimal('34924')}
+{u'Symbol': 'URBN', u'EM_Volume': Decimal('2600')}
+{u'Symbol': 'URI', u'EM_Volume': Decimal('1268')}
+{u'Symbol': 'USB', u'EM_Volume': Decimal('21032')}
+{u'Symbol': 'USG', u'EM_Volume': Decimal('1800')}
+{u'Symbol': 'USNA', u'EM_Volume': Decimal('8904')}
+{u'Symbol': 'USO', u'EM_Volume': Decimal('111974')}
+{u'Symbol': 'USU', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'UTEK', u'EM_Volume': Decimal('834')}
+{u'Symbol': 'UTHR', u'EM_Volume': Decimal('18478')}
+{u'Symbol': 'V', u'EM_Volume': Decimal('93204')}
+{u'Symbol': 'VAL', u'EM_Volume': Decimal('2264')}
+{u'Symbol': 'VALE', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'VAR', u'EM_Volume': Decimal('4978')}
+{u'Symbol': 'VFC', u'EM_Volume': Decimal('21504')}
+{u'Symbol': 'VIPS', u'EM_Volume': Decimal('2420')}
+{u'Symbol': 'VMC', u'EM_Volume': Decimal('802')}
+{u'Symbol': 'VMI', u'EM_Volume': Decimal('410')}
+{u'Symbol': 'VMW', u'EM_Volume': Decimal('37048')}
+{u'Symbol': 'VOD', u'EM_Volume': Decimal('14470')}
+{u'Symbol': 'VRSK', u'EM_Volume': Decimal('1344')}
+{u'Symbol': 'VRTX', u'EM_Volume': Decimal('31194')}
+{u'Symbol': 'VRX', u'EM_Volume': Decimal('67258')}
+{u'Symbol': 'VSI', u'EM_Volume': Decimal('1648')}
+{u'Symbol': 'VWO', u'EM_Volume': Decimal('66746')}
+{u'Symbol': 'VXX', u'EM_Volume': Decimal('182832')}
+{u'Symbol': 'VZ', u'EM_Volume': Decimal('3810')}
+{u'Symbol': 'WAB', u'EM_Volume': Decimal('1182')}
+{u'Symbol': 'WAT', u'EM_Volume': Decimal('3322')}
+{u'Symbol': 'WBC', u'EM_Volume': Decimal('2000')}
+{u'Symbol': 'WBMD', u'EM_Volume': Decimal('404')}
+{u'Symbol': 'WCC', u'EM_Volume': Decimal('800')}
+{u'Symbol': 'WCG', u'EM_Volume': Decimal('1344')}
+{u'Symbol': 'WDAY', u'EM_Volume': Decimal('7268')}
+{u'Symbol': 'WDR', u'EM_Volume': Decimal('1800')}
+{u'Symbol': 'WETF', u'EM_Volume': Decimal('2800')}
+{u'Symbol': 'WFC', u'EM_Volume': Decimal('39332')}
+{u'Symbol': 'WFT', u'EM_Volume': Decimal('15302')}
+{u'Symbol': 'WHR', u'EM_Volume': Decimal('23594')}
+{u'Symbol': 'WLK', u'EM_Volume': Decimal('17962')}
+{u'Symbol': 'WLP', u'EM_Volume': Decimal('2406')}
+{u'Symbol': 'WMB', u'EM_Volume': Decimal('6182')}
+{u'Symbol': 'WMT', u'EM_Volume': Decimal('52206')}
+{u'Symbol': 'WPX', u'EM_Volume': Decimal('4890')}
+{u'Symbol': 'WPZ', u'EM_Volume': Decimal('1314')}
+{u'Symbol': 'WRLD', u'EM_Volume': Decimal('2621')}
+{u'Symbol': 'WSM', u'EM_Volume': Decimal('1000')}
+{u'Symbol': 'WSO', u'EM_Volume': Decimal('1600')}
+{u'Symbol': 'WUBA', u'EM_Volume': Decimal('13480')}
+{u'Symbol': 'WYN', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'WYNN', u'EM_Volume': Decimal('43688')}
+{u'Symbol': 'X', u'EM_Volume': Decimal('13002')}
+{u'Symbol': 'XEC', u'EM_Volume': Decimal('37314')}
+{u'Symbol': 'XLB', u'EM_Volume': Decimal('17228')}
+{u'Symbol': 'XLE', u'EM_Volume': Decimal('59972')}
+{u'Symbol': 'XLF', u'EM_Volume': Decimal('29800')}
+{u'Symbol': 'XLI', u'EM_Volume': Decimal('45402')}
+{u'Symbol': 'XLK', u'EM_Volume': Decimal('7000')}
+{u'Symbol': 'XLP', u'EM_Volume': Decimal('12400')}
+{u'Symbol': 'XLU', u'EM_Volume': Decimal('36954')}
+{u'Symbol': 'XLV', u'EM_Volume': Decimal('12400')}
+{u'Symbol': 'XLY', u'EM_Volume': Decimal('24412')}
+{u'Symbol': 'XONE', u'EM_Volume': Decimal('11926')}
+{u'Symbol': 'XRAY', u'EM_Volume': Decimal('200')}
+{u'Symbol': 'YELP', u'EM_Volume': Decimal('39204')}
+{u'Symbol': 'YHOO', u'EM_Volume': Decimal('5584')}
+{u'Symbol': 'YRCW', u'EM_Volume': Decimal('7628')}
+{u'Symbol': 'YUM', u'EM_Volume': Decimal('6')}
+{u'Symbol': 'YY', u'EM_Volume': Decimal('20780')}
+{u'Symbol': 'Z', u'EM_Volume': Decimal('25968')}
+{u'Symbol': 'ZINC', u'EM_Volume': Decimal('13420')}
+{u'Symbol': 'ZMH', u'EM_Volume': Decimal('1218')}
+{u'Symbol': 'ZNGA', u'EM_Volume': Decimal('90146')}
+{u'Symbol': 'ZTS', u'EM_Volume': Decimal('3436')}
