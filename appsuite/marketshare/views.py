@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*- from marketshare.ms import web_scraper
-from marketshare.models import MarketShare, MsForm
+# -*- coding: utf-8 -*- 
 from marketshare.ms import web_scraper
+from marketshare.models import MarketShare, MsForm
 from django.http import HttpResponse
 from django.template import loader, RequestContext
 from django.shortcuts import redirect
