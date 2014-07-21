@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
-from marketshare.ms import web_scraper
+# -*- coding: utf-8 -*- from marketshare.ms import web_scraper
 from marketshare.models import MarketShare, MsForm
+from marketshare.ms import web_scraper
 from django.http import HttpResponse
 from django.template import loader, RequestContext, Context, Template
 from django.shortcuts import redirect
@@ -67,7 +67,9 @@ def index(request):
 
 
 def listpage(request):
-    symbol = ['aapl', 'tsla', 'spy', 'qqq', 'dgly', 'atml', 'ibm']
+    symbol = ['aapl', 'tsla', 'spy', 'qqq',
+              'dgly', 'atml', 'ibm', 'bac',
+              'sne', 'rai', 'ssys', 'ddd']
  #   print symbol
     data = web_scraper(symbol)
     print data
