@@ -56,6 +56,7 @@ def web_scraper():
     print data1
     return data1
 
+
 def main():
     try:
         web_scraper()
