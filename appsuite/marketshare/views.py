@@ -2,7 +2,7 @@
 from marketshare.models import MarketShare, MsForm
 from marketshare.ms import web_scraper
 from django.http import HttpResponse
-from django.template import loader, RequestContext, Context, Template
+from django.template import loader, RequestContext
 from django.shortcuts import redirect
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
@@ -45,7 +45,7 @@ def index(request):
             try:
                 user = User.objects.get(username__exact=username)
             except ObjectDoesNotExist, ex:
-                print "Creating new user..."
+                print "Creating new user...", ex
                 user = User.objects.create_user(username, username, pwd)
             if user:
                 print "Authenticating..."
@@ -67,11 +67,8 @@ def index(request):
 
 
 def listpage(request):
-    symbol = ['aapl', 'tsla', 'spy', 'qqq',
-              'dgly', 'atml', 'ibm', 'bac',
-              'sne', 'rai', 'ssys', 'ddd']
- #   print symbol
-    data = web_scraper(symbol)
+    ''' Display a list of market share info for every stock EM trades!!! '''
+    data = web_scraper()
     print data
     template=loader.get_template("listpage.html")
     rc=RequestContext(request, {"data": data})
