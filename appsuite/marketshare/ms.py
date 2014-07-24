@@ -24,38 +24,49 @@ def pos_query():
         print sa_msg
         pass
 
-    return result  
- 
+    return result      
+    
 
 def web_scraper():
 
-    data = pos_query()
+    em_data = pos_query()
+    
     symbol = []
     em_vol = []
-    for k in data:
+    for k in em_data:
         new_d = dict(k)
         symbol.append(new_d['Symbol'])
         em_vol.append(new_d['EM_Volume'])
-        
-    sym_vol = [int(item['Volume']) for item in pyql.lookup(symbol[450:])]
-    mkt_shr = [round(x / y * 100, 2) for x, y in zip(em_vol[450:], sym_vol)]
-    data = {'Symbol': [str(item['symbol']) for item in 
-            pyql.lookup(symbol[450:])],
-            'Avg_Volume(3m)': [str(item['AverageDailyVolume']) for item in
-            pyql.lookup(symbol[450:])],
+    
+    sym_vol = [int(item['Volume']) for item in pyql.lookup(symbol[:400])]
+    mkt_shr = [round(x / y * 100, 2) for x, y in zip(em_vol[:400], sym_vol)]
+    avg_vol = [str(item['AverageDailyVolume']) for item in
+               pyql.lookup(symbol[:400])]
+    em_vol = [vol for vol in em_vol]
+    ms = map(float, mkt_shr)               
+    
+    data = {'Symbol': symbol,
+            'Avg_Volume(3m)': avg_vol ,
             'Volume': sym_vol,
-            'EM_Volume': [vol for vol in em_vol[450:]],
-            'Market_Share': map(float, mkt_shr)
+            'EM_Volume': em_vol ,
+            'Market_Share': ms
             }
+    
     headings = ['Symbol', 'Avg_Volume(3m)', 'Volume',
                 'EM_Volume', 'Market_Share']
+                
     columns = [data[heading] for heading in headings]
     max_len = len(max(columns, key=len))
+    
+    for col in columns:
+        col += [None] * (max_len - len(col))
+        
     rows = [[col[i] for col in columns] for i in range(max_len)]
     data1 = dict(rows=rows, headings=headings)
+  
     print data1
     return data1
-
+    
 
 def main():
     try:
@@ -65,4 +76,4 @@ def main():
         
 
 if __name__ == '__main__':
-    web_scraper()
+    main()
