@@ -72,7 +72,7 @@ TEMPLATE_DIRS = (
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': '/Users/chrisdorman/.virtualenvs/ms/appsuite.db',
+        'NAME': 'C:\\Users\\cdorman\\.virtualenvs\\ms\\appsuite.db',
     }
 }
 
