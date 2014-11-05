@@ -7,8 +7,6 @@ from sqlalchemy import exc
 
 def pos_query():
     """Function for querying DB and returning results"""
-
-    global result
     db_uri = 'mysql://tclerk:flamengo@cer-emdbl2/'
     engine = sa.create_engine(db_uri)
     engine.begin()
@@ -18,6 +16,7 @@ def pos_query():
                                     "SUM(pm.Buys + pm.Sells) AS EM_Volume "
                                     "FROM history.pos_matrix AS pm "
                                     "WHERE pm.ProdType='Equity' "
+                                    "AND pm.Exchange != '\TSE\'"
                                     "AND pm.TradeDate=CURDATE() "
                                     "GROUP BY pm.Symbol;")
 
@@ -39,8 +38,8 @@ def web_scraper():
         symbol.append(new_d['Symbol'])
         em_vol.append(new_d['EM_Volume'])
 
-    sym_vol = [int(item['Volume']) for item in pyql.lookup(symbol[:400])]
-    mkt_shr = [round(x / y * 100, 2) for x, y in zip(em_vol[:400], sym_vol)]
+    sym_vol = [int(item['Volume']) for item in pyql.lookup(symbol[:400]) if item['Volume'] is not None]
+    mkt_shr = [round(x / y * 100, 2) for x, y in zip(em_vol[:400], sym_vol) if x is not 0 or y is not 0]
     avg_vol = [str(item['AverageDailyVolume']) for item in
                pyql.lookup(symbol[:400])]
     em_vol = [vol for vol in em_vol]
@@ -69,11 +68,11 @@ def web_scraper():
 
 
 def main():
-
+    import traceback
     try:
         web_scraper()
     except Exception as e:
-        print "ERROR!!!\n", e
+        print "ERROR!!!\n", e, traceback.format_exc()
 
 
 if __name__ == '__main__':
